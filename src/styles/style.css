@@ -1,18 +1,20 @@
-/* Error: expected "=".
- *    ,
- * 10 |   font-variation-settings: 'width' = 100;
- *    |                                     ^
- *    '
- *   src/styles/index.scss 10:37  root stylesheet */
-
 body::before {
+  content: 'Error: expected "=".\a    \2577 \a 10 \2502    font-variation-settings: 'width' 100;\a    \2502                                      ^\a    \2575 \a   src/styles/index.scss 10:37  root stylesheet';
+
+  display: block;
+
+  margin-bottom: 1em;
+  padding: 1em;
+  border-bottom: 2px solid black;
+
   font-family:
     'Source Code Pro', 'SF Mono', Monaco, Inconsolata, 'Fira Mono',
     'Droid Sans Mono', monospace;
   white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected "=".\a    \2577 \a 10 \2502    font-variation-settings: \'width\' = 100;\a    \2502                                      ^\a    \2575 \a   src/styles/index.scss 10:37  root stylesheet';
+
+
+
+
+
+
 }
